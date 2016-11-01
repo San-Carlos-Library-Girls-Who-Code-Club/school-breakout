@@ -1,1 +1,4 @@
-
+/* Add the code for the score page
+		code to show the score
+		code to add and show a name to the score
+*/
