@@ -1,2 +1,41 @@
 /* Style of the main menu page
 */
+
+#border{
+	background-image: url("../images/mainMenuBackground.jpg");
+}
+
+#title{
+	margin: auto;
+	background-color: #00bfff;
+	width: 55%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 3%;
+}
+
+#title h1{
+	text-align: center;
+	font-size: 300%;
+}
+
+button h1{
+	text-align: center;
+	font-size: 250%;
+}
+button{
+	background-color: #87cefa;
+}
+button:first-child{
+	margin-bottom: 5%;
+}
+
+button{
+	display: block;
+	margin: auto;
+	width: 65%;
+}
+
+a:link{
+	text-decoration: none;
+}
