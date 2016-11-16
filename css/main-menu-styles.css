@@ -2,28 +2,38 @@
 */
 
 #border{
+	/*adds a background image to the div with id="border"*/
 	background-image: url("../images/mainMenuBackground.jpg");
 }
 
 #title{
+	/*centers the div with id= "title" in the viewport*/
 	margin: auto;
+	/*adds a background color to the div with id="title"*/
 	background-color: #00bfff;
+	/*makes the width of the div to be 45% of the viewport*/
 	width: 45vw;
+	/*makes the height of the div to be 20% of the viewport*/
 	height: 20vh;
+	/*adds a space of 10% of the viewport to the top of the div*/
 	margin-top: 10vh;
+	/*adds a padding of 3% of the div size inside the div around the letters*/
 	padding: 3%;
 }
 
 #title h1{
+	/*centers the text*/
 	text-align: center;
 }
 
 #buttons{
+	/*centers the buttons when the position of the div is absolute*/
 	position: absolute;
 	display: block;
 	margin: auto;
 	left: 0;
 	right: 0;
+	/*makes a spacing of 10% between the bottom of the div and the bottom of the page*/
 	bottom: 10vh;
 }
 
@@ -37,10 +47,13 @@ button{
 	width: 65vw;
 	height: 10vh;
 }
+
 button:first-child{
+	/*makes a spacing of 5% between the two buttons*/
 	margin-bottom: 5vh;
 }
 
 a:link{
+	/*gets rid of the underline for the link*/
 	text-decoration: none;
 }
