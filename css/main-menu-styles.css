@@ -6,13 +6,11 @@
 }
 
 #title{
-	position: relative;
 	margin: auto;
 	background-color: #00bfff;
-	width: 55vw;
-	height: 30vh;
-	margin-top: 5%;
-	margin-bottom: 5%;
+	width: 45vw;
+	height: 20vh;
+	margin-top: 10vh;
 	padding: 3%;
 }
 
@@ -20,11 +18,19 @@
 	text-align: center;
 }
 
+#buttons{
+	position: absolute;
+	display: block;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 10vh;
+}
+
 button h1{
 	text-align: center;
 }
 button{
-	position: relative;
 	display: block;
 	background-color: #87cefa;
 	margin: auto;
@@ -32,7 +38,7 @@ button{
 	height: 10vh;
 }
 button:first-child{
-	margin-bottom: 5%;
+	margin-bottom: 5vh;
 }
 
 a:link{
