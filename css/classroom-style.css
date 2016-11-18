@@ -1,2 +1,13 @@
 /* Style of the classroom page
 */
+#border{
+	background-image:url("../images/Classroom.jpg");
+	background-repeat:no-repeat;
+	
+	background-size:cover;
+	}
+	
+#binder{
+	width:10vw;
+	height:10vh;
+}
