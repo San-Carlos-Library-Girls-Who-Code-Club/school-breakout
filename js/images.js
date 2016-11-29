@@ -1,2 +1,0 @@
-/* Add the code to apply when an image is clicked
-*/
