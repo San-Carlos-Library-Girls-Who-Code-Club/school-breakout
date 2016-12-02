@@ -34,58 +34,9 @@ function foo() {
 	lW.innerHTML=LW;pW.innerHTML=PW;tW.innerHTML=TW;cT.innerHTML=CN;.innerHTML=LN;
 	pT.innerHTML=PN;tT.innerHTML=TN;
 
-	cC.innerHTML = classroomCorrect;	
+	cC.innerHTML = classroomCorrect;
+	
 }
-
-function cc() {
-	var cC = document.getElementById("1");
-	cC.innerHTML = CC;
-}
-function lc() {
-	var cC = document.getElementById(1);
-	cC.innerHTML = LC;
-}
-function pc() {
-	var cC = document.getElementById(2);
-	cC.innerHTML = PC;
-}
-function tc() {
-	var cC = document.getElementById(3);
-	cC.innerHTML = TC;
-}
-function cw() {
-	var cC = document.getElementById(10);
-	cC.innerHTML = CW;
-}
-function lw() {
-	var cC = document.getElementById(11);
-	cC.innerHTML = LW;
-}
-function pw() {
-	var cC = document.getElementById(12);
-	cC.innerHTML = PW;
-}
-function tw() {
-	var cC = document.getElementById(13);
-	cC.innerHTML = TW;
-}
-function ct() {
-	var cC = document.getElementById(11);
-	cC.innerHTML = CN;
-}
-function lt() {
-	var cC = document.getElementById(11);
-	cC.innerHTML = LN;
-}
-function pt() {
-	var cC = document.getElementById(11);
-	cC.innerHTML = PN;
-}
-function tt() {
-	var cC = document.getElementById(11);
-	cC.innerHTML = TN;
-}
-
 if(window.addEventListener) {
 	window.addEventListener("load", foo, false);
 } else if (window.attachEvent) {

@@ -1,2 +1,17 @@
-/* Style for the score page
-*/
+/* Style for the score page*/
+td,th,tr{
+	border: 2px solid black;
+	font-family: Georgia;
+}
+
+button {
+	font-family: Georgia;
+	width:10%;
+	height:10vh;
+	font-size:200%;
+}
+
+table {
+	margin-top: 2%;
+	width: 100%;
+}
