@@ -23,3 +23,7 @@ button{
 	margin: auto;
 	width: 50%
 }
+
+a:link {
+	text-decoration: none;
+}
