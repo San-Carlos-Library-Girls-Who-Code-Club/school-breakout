@@ -42,13 +42,13 @@ button{
 	display: block;
 	background-color: #87cefa;
 	margin: auto;
-	width: 65vw;
-	height: 10vh;
+	width: 65%;
+	height: 10%;
 }
 
 button:first-child{
 	/*makes a spacing of 5% between the two buttons*/
-	margin-bottom: 5vh;
+	margin-bottom: 5%;
 }
 
 a:link{
