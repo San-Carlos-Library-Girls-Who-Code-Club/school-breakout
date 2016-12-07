@@ -4,8 +4,6 @@
 #border{
 	/*adds a background image to the div with id="border"*/
 	background-image: url("../images/mainMenuBackground.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 #title{

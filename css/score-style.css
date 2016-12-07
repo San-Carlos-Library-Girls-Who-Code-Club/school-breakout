@@ -6,9 +6,10 @@ td,th,tr{
 
 button {
 	font-family: Georgia;
-	width:10%;
+	width:10vw;
 	height:10vh;
 	font-size:200%;
+	padding: 2%;
 }
 
 table {

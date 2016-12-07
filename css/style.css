@@ -3,6 +3,9 @@
 */
 
 
+html{
+	height: 100%;
+}
 body{
 	position: relative;
 }
@@ -14,6 +17,10 @@ body{
 	left: 0;
 	padding: 0;
 	margin: 0;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	background-attachment: fixed;
 }
 
 
