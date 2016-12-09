@@ -10,27 +10,31 @@
 #binder{
 	width:10vw;
 	height:12vh;
-	position:fixed;
+	position:absolute;
 	top:50%;
-	left:50%;
+	left:37%;
 	
 }
 #book{
 	width:8vw;
 	height:8vh;
-	position:fixed;
+	position:absolute;
 	top:67%;
-	right:17%;
+	right:25%;
 	
 }
 #pen{
 	width:10vw;
 	height:10vh;
-	position:fixed;
+	position:absolute;
+	bottom: 10%;
+	left: 50%;
 	
 }
 #waterbottle{
 	width:8vw;
 	height:15vh;
-	position:fixed;
+	position:absolute;
+	bottom:12%;
+	left:37%;
 }
