@@ -3,17 +3,17 @@
 #border{
 	background-image:url("../images/Classroom.jpg");
 	background-repeat:no-repeat;
-	
+
 	background-size:cover;
 	}
-	
+
 #binder{
 	width:10vw;
 	height:12vh;
 	position:absolute;
 	top:50%;
 	left:37%;
-	
+
 }
 #book{
 	width:8vw;
@@ -21,7 +21,7 @@
 	position:absolute;
 	top:67%;
 	right:25%;
-	
+
 }
 #pen{
 	width:10vw;
@@ -29,10 +29,9 @@
 	position:absolute;
 	bottom: 10%;
 	left: 50%;
-	
+
 }
 #waterbottle{
-	width:8vw;
 	height:15vh;
 	position:absolute;
 	bottom:12%;

@@ -33,12 +33,12 @@ function foo() {
 	var lT = document.getElementById(21);
 	var pT = document.getElementById(22);
 	var tT = document.getElementById(23);
-	
+
 	cC.innerHTML = CC; lC.innerHTML=LC;pC.innerHTML=PC;tC.innerHTML=TC;cW.innerHTML=CW;
 	lW.innerHTML=LW;pW.innerHTML=PW;tW.innerHTML=TW;cT.innerHTML=CN;lT.innerHTML=LN;
 	pT.innerHTML=PN;tT.innerHTML=TN;
 
-	cC.innerHTML = classroomCorrect;	
+	cC.innerHTML = classroomCorrect;
 }*/
 
 function cc() {
