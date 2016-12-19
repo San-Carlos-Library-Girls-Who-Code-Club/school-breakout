@@ -5,5 +5,26 @@ body
 	background-image: url("../images/playgroundbackground.png");
 }
 
-#keypad {width:15%;height:20%; position:absolute;left:42.5%;bottom:10%;}
-#gate{width:100%;height:50%; position:absolute; bottom:0;}
+#football{
+	width:8vw;
+	position:absolute;
+	top:90%; left:1%;
+}
+
+#kid1{
+	width:20vw;
+	position:absolute;
+	top:60%; left:3%;
+}
+
+#goalie{
+	width:40vw;
+	position:absolute;
+	top:60%; left:65%;
+}
+
+#notebook{
+	width:10vw;
+	position:absolute;
+	top:85%; left:35%;
+}

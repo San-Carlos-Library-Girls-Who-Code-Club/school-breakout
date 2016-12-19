@@ -1,2 +1,16 @@
 /* Style of the locker room page
 */
+body
+{
+	background-image: url("../images/locker-room.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+
+
+}
+
+#notebook{
+	width:10vw;
+	position:absolute;
+	top:85%; left:35%;
+}
