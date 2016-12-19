@@ -3,14 +3,31 @@
 body
 {
 	background-image: url("../images/locker-room.jpeg");
-  background-repeat:no-repeat;
-  background-size:cover;
 
 
 }
 
-#notebook{
+#shoe{
 	width:10vw;
 	position:absolute;
-	top:85%; left:35%;
+	top:75%; left:20%;
+}
+
+#sock{
+	width:8vw;
+	position:absolute;
+	top:65%; left:20%;
+}
+
+#lock{
+  width:8vw;
+  position:absolute;
+	top:45%; left:30%;
+}
+
+
+#jersey{
+  width:16vw;
+  position:absolute;
+	top:50%; left:40%;
 }
