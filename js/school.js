@@ -15,8 +15,11 @@ var playgroundCorrect = 0
 /* cookie handling functions from 
  * http://techpatterns.com/downloads/javascript_cookies.php
  */
-function Set_Cookie( name, value, expires, path, domain, secure )
+function Set_Cookie( name, value)
 {
+	expires = true;
+	path="/"
+	
 // set time, it's in milliseconds
 var today = new Date();
 today.setTime( today.getTime() );
@@ -35,9 +38,7 @@ var expires_date = new Date( today.getTime() + (expires) );
 
 document.cookie = name + "=" +escape( value ) +
 ( ( expires ) ? ";expires=" + expires_date.toGMTString() : "" ) +
-( ( path ) ? ";path=" + path : "" ) +
-( ( domain ) ? ";domain=" + domain : "" ) +
-( ( secure ) ? ";secure" : "" );
+( ( path ) ? ";path=" + path : "" );
 }
 
 // this fixes an issue with the old method, ambiguous values
@@ -100,6 +101,7 @@ function classroomQuestion() {
     if (classroomCorrect >= (CLASSROOM_TOTAL / 2)) {
       alert("You broke out of the classroom!");
       window.location.href = "../locker-room/index.html";
+	  Set_Cookie("CC", toString(classroomCorrect));
     } else {
       alert("The teacher caught you, Game Over...");
       window.location.href = "../index.html"
@@ -120,7 +122,9 @@ function lockerQuestion() {
   if (lockerAsked == LOCKER_TOTAL) {
     if (lockerCorrect >= (LOCKER_TOTAL / 2)) {
       alert("You broke out of the locker room!");
-      window.location.href = "../playground/index.html";
+      window.location.href = "../playground/index.html";	
+	  Set_Cookie("LC", toString(lockerCorrect));
+
     } else {
       alert("The P.E. teacher caught you, Game Over...");
     }
@@ -137,6 +141,8 @@ function playgroundQuestion() {
     if (playgroundCorrect >= (PLAYGROUND_TOTAL / 2)) {
       alert("You escaped from school!");
       window.location.href = "../score/index.html";
+	  	  Set_Cookie("PC", toString(playgroundCorrect));
+
     } else {
       alert("The gate blocked your path, Game Over...");
     }
@@ -194,7 +200,7 @@ function askQuestion(){
 
 }
 
-
+/*
 var CC = classroomCorrect;
 var CW = classroomAsked - classroomCorrect;
 
@@ -281,3 +287,4 @@ if(window.addEventListener) {
 } else if (window.attachEvent) {
 	window.attachEvent("onload", table);
 }
+*/
